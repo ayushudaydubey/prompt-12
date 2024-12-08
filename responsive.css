@@ -1,0 +1,48 @@
+@media screen and (max-width:600px) {
+.page{
+  flex-direction: column;
+}
+  .left{
+    width: 100vw;
+    padding: 7vw 5vw;
+    background-image: url(girl.avif);
+    background-size: cover;
+position: relative;
+  }
+  .right{
+    display: none;
+  }
+  .left input{
+    font-size: 15px;
+    padding: 10px 15px ;
+    width: 50%;
+  }
+  .left input::placeholder{
+    font-size: 15px;
+  }
+  .left button{
+    font-size: 15px;
+    width: 44%;
+    padding: 10px 15px;
+  }
+  .left button i{
+    font-size: 15px;
+  }
+  .policy{
+flex-direction: column;
+  }
+  .policy a{
+  
+  }
+    .policy h4, a {
+      font-size: 12px;
+      width: 40%;
+      padding: 5px;
+      margin-top: 0;
+      text-align: center;
+  }
+  
+  .policy h4:hover, a:hover{
+    box-shadow: 2px 2px 5px #ffebe4;
+  }
+} 

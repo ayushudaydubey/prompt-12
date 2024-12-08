@@ -100,14 +100,19 @@ a {
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-top: 5%;
+  padding: 15px ;
   animation: slideIn 2s forwards ease-out;
+border-radius: 20px;
+
 }
 
 .policy a {
   color: #ffebe4;
   text-decoration: none;
 }
-
+.policy h4:hover, a:hover{
+  box-shadow: 3px 3px 10px #ffebe4;
+}
 .policy {
   display: flex;
   justify-content: space-between;

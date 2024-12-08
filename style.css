@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ font-family: ;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.page {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+
+}
+
+.left {
+  width: 50vw;
+  height: 100vh;
+  background-color: #752A14;
+  padding: 3vw 3vw;
+  display: flex;
+  flex-direction: column;
+  color: #ffebe4;
+  text-transform: uppercase;
+ 
+  gap: 1vw;
+}
+
+.left h1 {
+  font-size: 7vw;
+  font-weight: 200;
+  animation: slideIn 2s forwards ease-out;
+  text-shadow: 2px 2px 10px #ffebe4;
+}
+
+.left p {
+  font-size: 2vw;
+  font-weight: 300;
+  animation: slideIn 2s forwards ease-out;
+}
+
+.left input {
+  padding: 1vw 2vw;
+  width: 25vw;
+  border: none;
+  font-size: 30px;
+  background-color: #ffebe4;
+  border-radius: 20px;
+  outline: none;
+  animation: slideIn 2s forwards ease-out;
+  margin-top: 1vw;
+  color: #752A14;
+}
+
+.left input::placeholder {
+  font-size: 30px;
+  color: #752A14;
+  text-transform: uppercase;
+  text-align: left;
+  letter-spacing: 2px;
+}
+
+.left button {
+  width: 18vw;
+  border: none;
+  border-radius: 20px;
+  font-size: 30px;
+  text-align: left;
+  text-transform: uppercase;
+  padding: 1vw 2vw;
+  letter-spacing: 2px;
+  animation: slideIn 2s forwards ease-out;
+  color: #752A14;
+  cursor: pointer;
+  background-color: #ffebe4;
+  transition: 0.5s ease-in-out all;
+}
+
+.left button i {
+  font-size: 33px;
+  font-weight: 500;
+}
+
+.left button:hover {
+  background-color: transparent;
+box-shadow: 2px 2px 25px #ffebe4;
+  color: #ffebe4;
+}
+
+.policy h4,
+a {
+  font-size: 35px;
+  font-weight: 300;
+  word-spacing: 3px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 5%;
+  animation: slideIn 2s forwards ease-out;
+}
+
+.policy a {
+  color: #ffebe4;
+  text-decoration: none;
+}
+
+.policy {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.right {
+  width: 50vw;
+  height: 100vh;
+  background-image: url(girl.avif);
+  background-size: cover;
+  background-position: 0% 40%;
+}
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

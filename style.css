@@ -32,10 +32,10 @@ body {
 }
 
 .left h1 {
-  font-size:5vw;
+  font-size:6vw;
   font-weight: 200;
   animation: slideIn 2s forwards ease-out;
-  text-shadow: 2px 2px 5px #ffebe4;
+  text-shadow: 2px 2px 5px #ffc8b4;
 }
 
 .left p {
